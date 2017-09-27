@@ -4,16 +4,22 @@ require('../src/next-compare');
 
 describe('next/compare', function () {
 
-  it('nx.mix', function () {
-    var obj1 = {name: 'fei'};
-    var obj2 = {email: '1290657123@qq.com'};
+  it('num1:2, num2: 3 => 2 cp 3->-1', function () {
+    var num1 = 2;
+    var num2 = 3;
+    assert.equal(nx.compare(num1,num2), -1);
+  });
 
-    var result = {};
+  it('num1:2, num2: 1 => 2 cp 1->1', function () {
+    var num1 = 2;
+    var num2 = 1;
+    assert.equal(nx.compare(num1,num2), 1);
+  });
 
-    nx.mix(result, obj1, obj2);
-
-    assert.equal(result.name, obj1.name);
-    assert.equal(result.email, obj2.email);
+  it('num1:2, num2: 2 => 2 cp 2->0', function () {
+    var num1 = 2;
+    var num2 = 2;
+    assert.equal(nx.compare(num1,num2), 0);
   });
 
 });
