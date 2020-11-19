@@ -1,17 +1,17 @@
 /*!
- * name: @feizheng/next-compare
+ * name: @jswork/next-compare
  * description: Basic compare for next.
- * url: https://github.com/afeiship/next-compare
+ * homepage: https://github.com/afeiship/next-compare
  * version: 1.0.0
- * date: 2020-02-16 12:27:29
+ * date: 2020-11-19 13:08:58
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
-  nx.compare = function(inNum1, inNum2) {
+  nx.compare = function (inNum1, inNum2) {
     var difference = inNum1 - inNum2;
     return difference === 0 ? 0 : difference / Math.abs(difference);
   };
@@ -20,5 +20,3 @@
     module.exports = nx.compare;
   }
 })();
-
-//# sourceMappingURL=next-compare.js.map

@@ -1,8 +1,8 @@
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
-  nx.compare = function(inNum1, inNum2) {
+  nx.compare = function (inNum1, inNum2) {
     var difference = inNum1 - inNum2;
     return difference === 0 ? 0 : difference / Math.abs(difference);
   };
