@@ -3,7 +3,7 @@
  * description: Basic compare for next.
  * homepage: https://github.com/afeiship/next-compare
  * version: 1.0.0
- * date: 2020-11-19 13:08:58
+ * date: 2020-11-19 13:09:40
  * license: MIT
  */
 
