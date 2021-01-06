@@ -2,13 +2,13 @@
  * name: @jswork/next-compare
  * description: Basic compare for next.
  * homepage: https://github.com/afeiship/next-compare
- * version: 1.0.0
- * date: 2020-11-19 13:09:40
+ * version: 1.0.1
+ * date: 2021-01-06 21:42:20
  * license: MIT
  */
 
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = global || window || Function('return this')();
   var nx = global.nx || require('@jswork/next');
 
   nx.compare = function (inNum1, inNum2) {
