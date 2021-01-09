@@ -2,8 +2,8 @@
  * name: @jswork/next-compare
  * description: Basic compare for next.
  * homepage: https://github.com/afeiship/next-compare
- * version: 1.0.1
- * date: 2021-01-06 21:42:20
+ * version: 1.0.2
+ * date: 2021-01-09 16:24:05
  * license: MIT
  */
 
