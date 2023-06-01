@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-compare",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Basic compare for next.",
   "homepage": "https://js.work",
   "author": {
@@ -43,5 +43,9 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "compare",
+    "next"
+  ]
 }
